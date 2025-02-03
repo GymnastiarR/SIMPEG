@@ -1,4 +1,8 @@
 <x-app-layout>
+    <x-slot:title>
+        Pengajuan Cuti
+    </x-slot:title>
+
     @if ($errors->any())
         <div class="alert alert-danger">
             <ul>

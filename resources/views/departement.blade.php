@@ -1,4 +1,8 @@
 <x-app-layout>
+    <x-slot:title>
+        Departement
+    </x-slot:title>
+
     @session('modal')
         @push('trigger-modal')
             <script>

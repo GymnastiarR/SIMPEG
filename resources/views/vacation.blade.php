@@ -1,4 +1,8 @@
 <x-app-layout>
+    <x-slot:title>
+        Pengajuan Cuti
+    </x-slot:title>
+
     @if (!empty(old()))
         @once
             @push('trigger-modal')
